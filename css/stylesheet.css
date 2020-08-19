@@ -1,1 +1,51 @@
 /* css style of comments */ 
+/* https://css-tricks.com/snippets/css/complete-guide-grid/ */
+
+.body_index {
+    margin:0;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main_index{
+    background-color: #6670ff;
+    color: #fff;  
+}
+.footer_index {
+    background-color: #6670ff;
+    color: #fff;  
+}
+
+.wrapper_footer{
+        display: grid;
+        grid-gap: 0px;
+        grid-template-columns: repeat(auto-fill, 1fr);
+        grid-template-rows: repeat(auto-fill, 1fr);
+        grid-template-areas: "a b c d";
+        color: rgb(255, 255, 255);
+        justify-content: center;
+        
+}
+.arrow_left_footer{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;   
+}
+.empty_space{
+    background-color: #6670ff;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2; 
+}
+.arrow_right_footer{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;   
+}
+.arrow_image{
+   width:10%;
+   display: block;
+   border-radius: 0%;
+}
