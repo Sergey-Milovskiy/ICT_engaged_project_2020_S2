@@ -37,6 +37,12 @@
     grid-column: 3 / 3;
 
 }
+.headen_key{
+    color: #fff;
+    border: 0px;
+    width:100%;
+    grid-column: 2 / 3;  
+}
 .arrow_image{
    width:18%;
    border-radius: 0%;
