@@ -43,6 +43,23 @@
     width:100%;
     grid-column: 2 / 3;  
 }
+
+.index_pictures_column{
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+}
+.index_pictures_row{
+    content: "";
+    clear: both;
+    display: table;
+    padding: 0px;
+}
+
+.images{
+    width:100%;
+}
+
 .arrow_image{
    width:18%;
    border-radius: 0%;
