@@ -12,50 +12,128 @@
     color: #fff;  
 }
 .footer_index {
-  position: static;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  display:grid;
-  grid-template-columns: repeat(3, 1fr);
-  background-color: red;
-  color: white;
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(auto-fill, 1fr);
+    grid-template-rows: repeat(auto-fill, 1fr);
+    background-color: white;
+    color: rgb(255, 255, 255);
 }
-
-.left_arrow{
+.footer_box{
     color: #fff;
     width:100%;
-    border: 0px;
-    grid-column: 1 / 3;
+    border: 0px;  
+}
+.left_arrow{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align:left;
 
 }
 
 .right_arrow{
-    color: #fff;
-    border: 0px;
-    width:100%;
-    grid-column: 3 / 3;
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align:right;
 
 }
 .headen_key{
-    color: #fff;
-    border: 0px;
-    width:100%;
-    grid-column: 2 / 3;  
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align:center;
+
 }
 
-.index_pictures_column{
-    float: left;
-    width: 33.33%;
-    padding: 0px;
-}
-.index_pictures_row{
-    content: "";
-    clear: both;
-    display: table;
-    padding: 0px;
+.index_pictures{
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(auto-fill, 1fr);
+    grid-template-rows: repeat(auto-fill, 1fr);
+    background-color: white;
+    color: rgb(255, 255, 255);
 }
 
+.box_index{
+    
+        background-color: white;
+        color: #fff;
+        border-radius: 5px;
+        padding: 0px;
+        font-size: 75%;
+        text-align:center;
+        font-weight:bold;
+      
+}
+.taxi_picture_1 {
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  
+  }
+  .taxi__sign_picture_2 {
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  
+  }
+  .plane_picture_3 {
+
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  
+  }
+  .train_picture_4 {
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  
+  }
+  .character_picture_5 {
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  
+  }
+  .bus_picture_6 {
+
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  
+  }
+  .car_picture_7 {
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  
+  }
+  .bridge_picture_8 {
+
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  
+  }
 .images{
     width:100%;
 }
