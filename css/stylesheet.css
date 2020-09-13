@@ -1,15 +1,40 @@
 /* css style of comments */ 
 /* https://css-tricks.com/snippets/css/complete-guide-grid/ */
 
+@media(min-width:320px){
+
+}
+
+@media(min-width:640px){
+
+}
+
+@media(min-width:960px){
+
+}
+
+@media(min-width:600px){
+
+}
+
+@media(min-width:1024px){
+
+}
+
+@media(min-width:1920px){
 .body_index {
     margin:0px;
     font-family: Arial, Helvetica, sans-serif;
-    border:0px;
+    border:0px;    
 }
 .main_index{
     /*background-image: url("../pic/student/student_girl.jpg");*/
     background-color: #6670ff;
-    color: #fff;  
+    color: #fff;
+    border:5px;
+    margin:5px;
+    padding:10px;        
+    text-align:-center;          
 }
 .footer_index {
     display: grid;
@@ -135,7 +160,7 @@
   
   }
 .images{
-    width:100%;
+    widows: 100px;    
 }
 
 .arrow_image{
@@ -149,4 +174,9 @@
     margin-left: auto;
     margin-right: auto;
     width: 20%;
+}
+}
+
+@media(min-width:3840px){
+  
 }
