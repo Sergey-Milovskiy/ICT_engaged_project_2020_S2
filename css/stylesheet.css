@@ -1,6 +1,7 @@
 /* css style of comments */ 
 /* https://css-tricks.com/snippets/css/complete-guide-grid/ */
 
+/* all common devices screen resolution */
 @media(min-width:320px){
 
 }
@@ -178,5 +179,5 @@
 }
 
 @media(min-width:3840px){
-  
+
 }
