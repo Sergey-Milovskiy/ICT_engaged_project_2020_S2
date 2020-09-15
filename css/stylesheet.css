@@ -30,6 +30,7 @@
     margin:0px;
     font-family: Arial, Helvetica, sans-serif;
     border:0px;
+    height:100%;
 }
 .main_index{
     /*background-image: url("../pic/student/student_girl.jpg");*/
@@ -77,7 +78,7 @@
 
 .index_pictures{
     display: grid;
-    grid-gap: 1px;
+    grid-gap: 0px;
     grid-template-columns: repeat(auto-fill, 1fr);
     grid-template-rows: repeat(auto-fill, 1fr);
     background-color: white;
@@ -88,7 +89,7 @@
     
         background-color: white;
         color: #fff;
-        border-radius: 5px;
+        border-radius: 0px;
         padding: 0px;
         font-size: 75%;
         text-align:center;
@@ -146,13 +147,19 @@
   .car_picture_7 {
 
     grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  
+  }
+  .road_8 {
+    grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;
   
   }
-  .bridge_picture_8 {
-
+  .bridge_picture_9 {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 3;
