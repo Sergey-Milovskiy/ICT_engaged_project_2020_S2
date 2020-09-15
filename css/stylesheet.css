@@ -3,34 +3,13 @@
 
 
 /* all common devices screen resolution */
-/*
-@media(min-width:320px){
-
-}
-
-@media(min-width:640px){
-
-}
-
-@media(min-width:960px){
-
-}
-
-@media(min-width:600px){
-
-}
-
-@media(min-width:1024px){
-
-}
-
-@media(min-width:1920px){
-*/
 .body_index {
     margin:0px;
     font-family: Arial, Helvetica, sans-serif;
     border:0px;
-    height:100%;
+    height: fit-content;
+    /* overflow: hidden;*/
+
 }
 .main_index{
     /*background-image: url("../pic/student/student_girl.jpg");*/
@@ -44,11 +23,13 @@
     grid-template-rows: repeat(auto-fill, 1fr);
     background-color: white;
     color: rgb(255, 255, 255);
+
 }
 .footer_box{
     color: #fff;
     width:100%;
-    border: 0px;  
+    border: 0px;
+  
 }
 .left_arrow{
     grid-column-start: 1;
@@ -183,9 +164,51 @@
     width: 20%;
 
 }
-/*
-@media(min-width:3840px){
 
+
+
+@media(min-width:320px){
+  .images{
+    width:100%;
+}
 
 }
-*/
+
+@media(min-width:640px){
+  .images{
+    width:100%;
+}
+
+}
+
+@media(min-width:960px){
+  .images{
+    width:80%;
+}
+
+}
+
+@media(min-width:600px){
+  .images{
+    width:60%;
+}
+
+}
+
+@media(min-width:1024px){
+  .images{
+    width:40%;
+}
+
+}
+
+@media(min-width:1920px){
+  .images{
+    width:35%;
+}
+}
+@media(min-width:3840px){
+  .images{
+    width:25%;
+}
+}
