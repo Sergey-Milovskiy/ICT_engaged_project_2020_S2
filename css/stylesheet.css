@@ -2,6 +2,7 @@
 /* https://css-tricks.com/snippets/css/complete-guide-grid/ */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* all common devices screen resolution */
 @media(min-width:320px){
 
@@ -24,6 +25,8 @@
 }
 
 @media(min-width:1920px){
+=======
+>>>>>>> parent of f5798fb... still fixing the resolution and screen size
 =======
 >>>>>>> parent of f5798fb... still fixing the resolution and screen size
 .body_index {
@@ -175,11 +178,14 @@
     margin-right: auto;
     width: 20%;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 }
 
 @media(min-width:3840px){
 
+=======
+>>>>>>> parent of f5798fb... still fixing the resolution and screen size
 =======
 >>>>>>> parent of f5798fb... still fixing the resolution and screen size
 }
