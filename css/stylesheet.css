@@ -1,6 +1,7 @@
 /* css style of comments */ 
 /* https://css-tricks.com/snippets/css/complete-guide-grid/ */
 
+<<<<<<< HEAD
 /* all common devices screen resolution */
 @media(min-width:320px){
 
@@ -23,19 +24,17 @@
 }
 
 @media(min-width:1920px){
+=======
+>>>>>>> parent of f5798fb... still fixing the resolution and screen size
 .body_index {
     margin:0px;
     font-family: Arial, Helvetica, sans-serif;
-    border:0px;    
+    border:0px;
 }
 .main_index{
     /*background-image: url("../pic/student/student_girl.jpg");*/
     background-color: #6670ff;
-    color: #fff;
-    border:5px;
-    margin:5px;
-    padding:10px;        
-    text-align:-center;          
+    color: #fff;  
 }
 .footer_index {
     display: grid;
@@ -161,7 +160,7 @@
   
   }
 .images{
-    widows: 100px;    
+    width:100%;
 }
 
 .arrow_image{
@@ -175,9 +174,12 @@
     margin-left: auto;
     margin-right: auto;
     width: 20%;
+<<<<<<< HEAD
 }
 }
 
 @media(min-width:3840px){
 
+=======
+>>>>>>> parent of f5798fb... still fixing the resolution and screen size
 }
