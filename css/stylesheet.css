@@ -184,12 +184,23 @@
   text-align:right;
 }
 
+.middle_location_picture{
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align:center;
+}
+
 
 .images{
     width:100%;
 }
 .images_index{
   width:45%;
+}
+.images_middle_location{
+  width:60%;
 }
 .middle_page_images{
   width:100%;
