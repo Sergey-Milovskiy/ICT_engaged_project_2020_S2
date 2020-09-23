@@ -24,45 +24,12 @@
     background-color: #6670ff;
     color: #fff;  
 }
-.footer_index {
-    display: grid;
-    grid-gap: 1px;
-    grid-template-columns: repeat(auto-fill, 1fr);
-    grid-template-rows: repeat(auto-fill, 1fr);
-    background-color: white;
-    color: rgb(255, 255, 255);
 
-}
 .footer_box{
     color: #fff;
     width:100%;
     border: 0px;
   
-}
-.left_arrow{
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    text-align:left;
-
-}
-
-.right_arrow{
-    grid-column-start: 5;
-    grid-column-end: 7;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    text-align:right;
-
-}
-.headen_key{
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    text-align:center;
-
 }
 
 .index_pictures{
@@ -85,7 +52,7 @@
         font-weight:bold;
       
 }
-.taxi_picture_1 {
+.picture_1 {
 
     grid-column-start: 1;
     grid-column-end: 2;
@@ -93,7 +60,7 @@
     grid-row-end: 2;
   
   }
-  .taxi__sign_picture_2 {
+  .picture_2 {
 
     grid-column-start: 2;
     grid-column-end: 3;
@@ -101,7 +68,7 @@
     grid-row-end: 2;
   
   }
-  .plane_picture_3 {
+  .picture_3 {
 
     grid-column-start: 3;
     grid-column-end: 4;
@@ -109,7 +76,7 @@
     grid-row-end: 2;
   
   }
-  .train_picture_4 {
+  .picture_4 {
 
     grid-column-start: 1;
     grid-column-end: 2;
@@ -117,7 +84,7 @@
     grid-row-end: 3;
   
   }
-  .character_picture_5 {
+  .picture_5 {
 
     grid-column-start: 2;
     grid-column-end: 3;
@@ -125,7 +92,7 @@
     grid-row-end: 3;
   
   }
-  .bus_picture_6 {
+  .picture_6 {
 
     grid-column-start: 3;
     grid-column-end: 4;
@@ -133,7 +100,7 @@
     grid-row-end: 3;
   
   }
-  .car_picture_7 {
+  .picture_7 {
 
     grid-column-start: 1;
     grid-column-end: 2;
@@ -141,22 +108,88 @@
     grid-row-end: 4;
   
   }
-  .road_8 {
+  .picture_9 {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;
   
   }
-  .bridge_picture_9 {
+  .picture_9 {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 4;
   
   }
+  .left_arrow {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    text-align:left;
+  }
+
+  .headen_key {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    text-align:center;
+  }
+
+.right_arrow {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  text-align:right;
+}
+
+.character_1{
+
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align:center;
+
+}
+.character_2{
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align:center;
+}
+.left_arrow_index {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  text-align:left;
+}
+.headen_key_index {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  text-align:center;
+}
+.right_arrow_index {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  text-align:right;
+}
+
+
 .images{
     width:100%;
+}
+.images_index{
+  width:45%;
 }
 .middle_page_images{
   width:100%;
