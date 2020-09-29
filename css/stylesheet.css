@@ -64,6 +64,7 @@
     border-radius: 0px;
     padding: 0px;
     text-align:center;
+    width:50%;
   }
 
 .right_arrow {
@@ -109,8 +110,7 @@
   width:60%;
 }
 .middle_page_images{
-  width:100%;
-  
+  width:60%;  
 }
 .arrow_image{
    width:25%;
