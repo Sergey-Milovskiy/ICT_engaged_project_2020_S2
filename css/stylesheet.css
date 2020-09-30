@@ -32,12 +32,30 @@
   outline: 1px solid red;  
 }
 
-:root { --third: calc((100vmin - 100px) / 3) ;}
+:root { 
+  --two: calc((100vmin - 100px) / 2) ;
+  --third: calc((100vmin - 75px) / 3) ;}  
+/* 
+:root { --two: calc((100vmin - 100px) / 2) ;}  
+
+third is a name
+-- is a convension double prefix for variable name
+calc - calculating 
+100% of smaller demension of a screen  than take a vid (substract 100 px)
+takes the size of a screen and divide it in 3 equal parts
+https://www.w3schools.com/css/css3_variables.asp
+https://www.w3schools.com/cssref/func_calc.asp
+https://www.w3schools.com/cssref/css_functions.asp
+*/
 
 .container_main_location{
   display: grid;
   grid-template-columns: repeat(3, var(--third));
+      /* columns */
+
   grid-template-rows: repeat(3, var(--third));
+        /* rows */
+
   align-content: center;
   justify-content: center;
 }
