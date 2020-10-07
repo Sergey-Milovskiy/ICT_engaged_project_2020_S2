@@ -19,21 +19,13 @@
 
 }
 
-.index_pictures{
-    display: grid;
-    grid-gap: 0px;
-    grid-template-columns: repeat(auto-fill, 1fr);
-    grid-template-rows: repeat(auto-fill, 1fr);
-    background-color: white;
-    color: rgb(255, 255, 255);
-}
 
 .red_line{   
   outline: 1px solid red;  
 }
 
 :root { 
-  --two: calc((100vmin - 100px) / 2) ;
+  --two: calc((100vmin - 15px) / 2) ;
   --third: calc((100vmin - 75px) / 3) ;}  
 /* 
 :root { --two: calc((100vmin - 100px) / 2) ;}  
@@ -96,22 +88,18 @@ https://www.w3schools.com/cssref/css_functions.asp
   text-align:right;
 }
 
-.character_1{
+.container_index_location{
+  display: grid;
+  grid-template-columns: repeat(2, var(--two));
+      /* columns */
 
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  text-align:center;
+  grid-template-rows: repeat(2, var(--two));
+        /* rows */
 
+  align-content: center;
+  justify-content: center;
 }
-.character_2{
-  grid-column-start: 3;
-  grid-column-end: 5;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  text-align:center;
-}
+
 
 
 .middle_location_picture{

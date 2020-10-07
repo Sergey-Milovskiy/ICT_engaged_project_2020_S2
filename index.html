@@ -5,30 +5,39 @@
   <title>ICT Project</title>
   <link rel="stylesheet" href="css/stylesheet.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
  </head>
  
  <body class="body_index">
 
-<main class="main_index">
-    <div class="index_pictures">
-        <div class="box_index character_1">
-            <div class="popup" onclick="myFunction()"><img src="pic/student/male.jpg" alt="Male character" class="images_index">
-                <span class="popuptext" id="myPopup">Hello! We are graduated students and we wish to make your journey much easier than we had. <br /> 
-                On this website you will find usefull lifehacks and tips what to do in a common, unknown for you, situation. <br />
-            Nevertheless, it's always your choice what to do in your life :))))</span>
-              </div>
+
+    <div class="container_index_location">
+    
+        <div class="picture_main_location">
+            <img src="pic/student/male_top.jpg" alt="Male Top" class="images">
         </div>
-        <div class="box_index character_2">
-            <div class="popup" onclick="myFunction()"><img src="pic/student/female.jpg" alt="Female character" class="images_index">
-                <span class="popuptext" id="myPopup">Hello! We are graduated students and we wish to make your journey much easier than we had. <br /> 
-                    On this website you will find usefull lifehacks and tips what to do in a common, unknown for you, situation. <br />
-                Nevertheless, it's always your choice what to do in your life :))))</span>
-              </div>
+    
+        <div class="picture_main_location">
+            <img src="pic/student/female_top.jpg" alt="Female Top" class="images">
+        </div>
+    
+        <div class="picture_main_location">
+            <img src="pic/student/male_btm.jpg" alt="Male Btm" class="images">
+        </div>
+        <div class="picture_main_location">
+            <img src="pic/student/female_btm.jpg" alt="Femake Btm" class="images">
         </div>
     </div>
+    <div class="w3-panel w3-green w3-display-container popup">
+        <span onclick="this.parentElement.style.display='none'"
+        class="w3-button w3-large w3-display-topright">&times;</span>
+        <p>Hello! We are graduated students and we wish to make your journey much easier than we had. <br /> 
+            On this website you will find usefull lifehacks and tips what to do in a common, unknown for you, situation. <br />
+        Nevertheless, it's always your choice what to do in your life :))))</p>
+      </div>
     <div class="container_footer">
         <div class="left_arrow">
-            <a href="./1_airport_location/hidden_level.html" title="Hidden level - Game Over"> <img src="pic/footer/arrow_left.png" alt="Left Arrow" class="arrow_image">  </a>
         </div>
         <div class="headen_key">
             <button onclick="myFunction()"> <img src= "pic/footer/hidden_key.png" alt="Hidden Key" class="arrow_image">  </button>
@@ -36,15 +45,17 @@
         <div class="right_arrow">
             <a href="./1_airport_location/airport.html" title="Airport location"> <img src="pic/footer/arrow_right.png" alt="Right Arrow" class="arrow_image">  </a>
         </div>
+
+
       <!-- 
 https://bulkresizephotos.com/
 -->
 
-</main>
 
 
 
      <script type="text/javascript" src="js/popup.js"></script>
+     <script type="text/javascript" src="js/alert.js"></script>
 
 </body>
 
