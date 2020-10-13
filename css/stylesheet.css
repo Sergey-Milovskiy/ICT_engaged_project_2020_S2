@@ -100,17 +100,80 @@ https://www.w3schools.com/cssref/css_functions.asp
   justify-content: center;
 }
 
+.container_guide{
+  display: grid;
+  text-align: center;
+  justify-content: center;
 
-
-.middle_location_picture{
-  grid-column-start: 1;
-  grid-column-end: 5;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  text-align:center;
+  grid-gap: 25px;
+  grid-template-columns: repeat(auto-fill, 1fr);
+  grid-template-rows: repeat(auto-fill, 1fr);
 }
 
+.guide_1 {
 
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  
+  }
+.guide_2 {
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+}  
+.guide_3 {
+
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 2;
+      grid-row-end: 3;
+      
+  }
+.guide_4 {
+
+grid-column-start: 2;
+grid-column-end: 4;
+grid-row-start: 2;
+grid-row-end: 3;
+    
+}
+.guide_5 {
+
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 3;
+grid-row-end: 4;
+      
+}
+.guide_6 {
+
+grid-column-start: 2;
+grid-column-end: 4;
+grid-row-start: 3;
+grid-row-end: 4;
+        
+}
+.guide_7 {
+
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 4;
+grid-row-end: 5;
+          
+}
+.guide_8 {
+
+ grid-column-start: 2;
+grid-column-end: 4;
+grid-row-start: 4;
+grid-row-end: 5;
+            
+}                       
 .images{
   width: 100%;
 }
