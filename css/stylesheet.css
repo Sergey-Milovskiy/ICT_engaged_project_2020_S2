@@ -25,7 +25,7 @@
 }
 
 :root { 
-  --two: calc((100vmin - 250px) / 2) ;
+  --two: calc((100vmin - 215px) / 2) ;
   --third: calc((100vmin - 75px) / 3) ;}  
 /* 
 :root { --two: calc((100vmin - 100px) / 2) ;}  
